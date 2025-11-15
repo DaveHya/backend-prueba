@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                   // Versión moderna de JS
+    "module": "commonjs",                 // Para Node.js
+    "outDir": "./dist",                   // Carpeta de salida
+    "rootDir": "./src",                   // Carpeta de código fuente
+    "strict": true,                       // Habilita comprobaciones estrictas
+    "esModuleInterop": true,              // Permite importar módulos CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node"]                     // Tipos de Node.js
+  },
+  "include": ["src"],                     // Compilar solo la carpeta src
+  "exclude": ["node_modules"]             // Excluir dependencias
+}
