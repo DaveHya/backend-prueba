@@ -1,4 +1,4 @@
-#   PRIMERO VA EL BACKEND + BASE DE DATOS 
+#   CODIGO BACKEND + BASE DE DATOS 
 
 1. Hay que crear la base de datos, en mi caso utilice Mysql.
 
