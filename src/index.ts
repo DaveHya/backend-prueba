@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/products", productRoutes);
+app.use("/products", productRoutes); // Rutas para productos (Url base: /products)
 
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`🚀 Servidor corriendo en puerto ${PORT}`));
+const PORT = process.env.PORT || 4000; // Agregar el puerto del servidor
+app.listen(PORT, () => console.log(`Servidor corriendo en puerto ${PORT}`)); // Mensaje de inicio del servidor
